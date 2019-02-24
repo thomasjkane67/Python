@@ -37,6 +37,24 @@
 || print(friend[-1])| Tyler |
 || frined[1] = "Frank" | Change "Maria" to Frank" |
 || numbers = [2, 10, 15, 25, 75]||
-| Variable.extend | friend.extend(numbers[2]) | Append lists together |
-| Variable.append |  |  |
-| Variable.inset |  |  |
+|| print(friend + numbers)||
+| Variable.extend | friend.extend(numbers) | Append lists together |
+||print(friend)||
+| Variable.append | friend.append("Creed")|  |
+||print(friend)||
+| Variable.inset | friend.insert(1, "Kelly")|  |
+||print(friend)||
+||friend.remove("Brandon")||
+||print(friend)||
+|# Pop last element off the array|||
+||friend.pop()||
+|# Where is "Maria" in the list|||
+||print(friend.index("Maria"))||
+|# count how often an element occurs|||
+||print(friend.count("Tyler"))||
+||friend.sort()||
+||print(friend)||
+||friend.reverse()||
+||print(friend)||
+||my_friends = friend.copy()||
+||print(my_friends)||
