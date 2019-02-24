@@ -30,7 +30,7 @@
 ||print(ceil(3.7))||
 ||print(round(3.7))||
 ||print(sqrt(36))||
-| Variable | friend = ["Tom", "Maria", "Brandon", "Tyler"] |  |
+| Variable | friend = ["Tom", "Maria", "Brandon", "Tyler"] | This is a list |
 || print(friend[2]) | Brandon | 
 || print(friend[1:])| "Maria", "Brandon", "Tyler" |
 || print(friend[1:3])| "Maria", "Brandon" |
@@ -58,3 +58,6 @@
 ||print(friend)||
 ||my_friends = friend.copy()||
 ||print(my_friends)||
+|Tuple|my_tuple = (4, 5)|Lists can be modified, tuples can not|
+||print(my_tuple[0])||
+||print(my_tuple[1])||
