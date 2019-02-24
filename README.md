@@ -1,6 +1,6 @@
 # Python
 
-| Destriction | Example | Comments |
+| Description | Example | Comments |
 | ------------- | ------------- | ------------- |
 | Variable | friend = "Tom" | "" is a string, froce numbers to string with str() |
 || from math import * ||
