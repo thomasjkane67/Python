@@ -76,13 +76,13 @@ my_function()
 
 # Parameters can be passed to a function
 def my_function1(name):
-    print("Hello there " + name )
+...print("Hello there " + name )
 
 my_function1("Tom")
 
 # Multiple parameters can be passed to the function
 def my_function2(name, age):
-    print("Hello there " + name + " you are " + age )
+...print("Hello there " + name + " you are " + age )
 
 my_function2("Tom", "52")
 
