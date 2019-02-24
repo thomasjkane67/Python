@@ -30,8 +30,13 @@
 ||print(ceil(3.7))||
 ||print(round(3.7))||
 ||print(sqrt(36))||
-
-| Variable | frined = ["Tom", "Maria", "Brandon", "Tyler"] |  |
-| Variable.extend |  |  |
+| Variable | friend = ["Tom", "Maria", "Brandon", "Tyler"] |  |
+|| print(friend[2]) | Brandon | 
+|| print(friend[1:])| "Maria", "Brandon", "Tyler" |
+|| print(friend[1:3])| "Maria", "Brandon" |
+|| print(friend[-1])| Tyler |
+|| frined[1] = "Frank" | Change "Maria" to Frank" |
+|| numbers = [2, 10, 15, 25, 75]||
+| Variable.extend | friend.extend(numbers[2]) | Append lists together |
 | Variable.append |  |  |
 | Variable.inset |  |  |
