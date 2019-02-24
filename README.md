@@ -63,9 +63,8 @@
 ||print(my_tuple[1])||
 ||tuple_list[(4, 5),(6, 7),(20, 25)] | Tuples can be inside a list
 | Functions | Group of code to perform a task | Call the function|
-||def my_function():
-    print("Hello there")
-
-my_function()|
+||def my_function():|Won't exacute untill called|
+||    print("Hello there") | what to do|
+||my_function()|| Call to the function||
 ||||
 ||||
